@@ -7,9 +7,8 @@ st.markdown("""
 <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
 rel="stylesheet">
 """, unsafe_allow_html=True)
-# ============================================================
+
 # PAGE CONFIGURATION
-# ============================================================
 
 st.set_page_config(
     page_title="Netflix Explorer",
@@ -18,10 +17,7 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-
-# ============================================================
 # CUSTOM CSS
-# ============================================================
 
 st.markdown("""
 <style>
